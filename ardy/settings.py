@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'ardy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.MYSQL',
-        'NAME': 'TheSandyOne.mysql.pythonanywhere-services.com',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': '/tmp/ardy.sqlite3',
     }
 }
 
